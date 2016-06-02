@@ -1,0 +1,11 @@
+use_frameworks!
+inhibit_all_warnings!
+target 'test1' do
+pod 'Firebase'
+
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+use_frameworks!
+
+end
+
